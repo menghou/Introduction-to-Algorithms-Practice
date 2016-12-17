@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;Introduction-to-Algorithms-Practice&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../traffic-scheduling" />
+      <root url="file://$PROJECT_DIR$/../mdata" />
+      <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../programming-in-go" />
+      <root url="file://$PROJECT_DIR$/../go-practise" />
+      <root url="file://$PROJECT_DIR$/../design_pattern-golang" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
