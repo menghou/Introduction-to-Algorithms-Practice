@@ -35,3 +35,20 @@ func InsertionSortIntReverse(A []int) {
 		}
 	}
 }
+
+func InsertionSortRecursion(a []int, n int) {
+	for n > 0 {
+		InsertionSortRecursion(a, n-1)
+		insertionSortRecursion(a, n)
+	}
+}
+
+func insertionSortRecursion(a []int, n int) {
+	key := a[n]
+	var j int = n - 1
+	for j >= 0 && key < a[j] {
+		a[j+1] = a[j]
+		j -= 1
+	}
+	a[j+1] = key
+}

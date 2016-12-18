@@ -16,3 +16,14 @@ func TestLinearSearch(t *testing.T) {
 		t.Errorf("indexc :%d", indexc)
 	}
 }
+
+func TestBinarySearch(t *testing.T) {
+	indexb := BinarySearch(a, b)
+	if indexb != 0 {
+		t.Errorf("indexb :%d", indexb)
+	}
+	indexc := BinarySearch(a, c)
+	if indexc != NIL {
+		t.Errorf("indexc :%d", indexc)
+	}
+}

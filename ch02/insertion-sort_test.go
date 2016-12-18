@@ -23,3 +23,23 @@ func TestInsertionSortIntReverse(t *testing.T) {
 		}
 	}
 }
+func TestInsertionSortRecursion(t *testing.T) {
+	a := []int{5, 2, 6, 1}
+	InsertionSortRecursion(a, 4)
+	b := []int{1, 2, 5, 6}
+	for index, _ := range a {
+		if a[index] != b[index] {
+			t.Errorf("index: %d, a:%d, b:%d", index, a[index], b[index])
+		}
+	}
+}
+func TestInsertionsortRecursion2(t *testing.T) {
+	a := []int{2, 5, 6, 1}
+	insertionSortRecursion(a, 3)
+	b := []int{1, 2, 5, 6}
+	for index, _ := range a {
+		if a[index] != b[index] {
+			t.Errorf("index: %d, a:%d, b:%d", index, a[index], b[index])
+		}
+	}
+}
